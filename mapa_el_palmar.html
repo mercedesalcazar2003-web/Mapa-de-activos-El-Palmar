@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5467da0281d0512ae284d61a25022133 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5467da0281d0512ae284d61a25022133" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5467da0281d0512ae284d61a25022133 = L.map(
+                "map_5467da0281d0512ae284d61a25022133",
+                {
+                    center: [37.9383, -1.1664],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_60cc05e1ff2d6498d74f9933d6307026 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+            var marker_9f98fde26d29eb6385effabd67f8564d = L.marker(
+                [37.9383, -1.1664],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_776143a3cb4cb74d32910d3bdcbb75b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94a97d9692bece26beaa1346bdda655c = $(`<div id="html_94a97d9692bece26beaa1346bdda655c" style="width: 100.0%; height: 100.0%;">Centro de Salud de El Palmar</div>`)[0];
+            popup_776143a3cb4cb74d32910d3bdcbb75b3.setContent(html_94a97d9692bece26beaa1346bdda655c);
+        
+
+        marker_9f98fde26d29eb6385effabd67f8564d.bindPopup(popup_776143a3cb4cb74d32910d3bdcbb75b3)
+        ;
+
+        
+    
+    
+            marker_9f98fde26d29eb6385effabd67f8564d.bindTooltip(
+                `<div>
+                     Centro de Salud de El Palmar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c09cb34606d0a107a658290ae24835e = L.marker(
+                [37.9389, -1.1675],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_1e14e26d8ae9ab9393bdd672fbca4e20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d24680ebdb069305a07b9ae0edb505c = $(`<div id="html_7d24680ebdb069305a07b9ae0edb505c" style="width: 100.0%; height: 100.0%;">Centro de Psicología y Psicoterapia El Palmar</div>`)[0];
+            popup_1e14e26d8ae9ab9393bdd672fbca4e20.setContent(html_7d24680ebdb069305a07b9ae0edb505c);
+        
+
+        marker_9c09cb34606d0a107a658290ae24835e.bindPopup(popup_1e14e26d8ae9ab9393bdd672fbca4e20)
+        ;
+
+        
+    
+    
+            marker_9c09cb34606d0a107a658290ae24835e.bindTooltip(
+                `<div>
+                     Centro de Psicología y Psicoterapia El Palmar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4dac1e80fa9fc848f6da3170c939774 = L.marker(
+                [37.9395, -1.1652],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_c26c717d44d8cb48bea9cf60c07feaa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75486ff9ae8703cdd9b2fd69d1b7f06f = $(`<div id="html_75486ff9ae8703cdd9b2fd69d1b7f06f" style="width: 100.0%; height: 100.0%;">PsicoNess</div>`)[0];
+            popup_c26c717d44d8cb48bea9cf60c07feaa1.setContent(html_75486ff9ae8703cdd9b2fd69d1b7f06f);
+        
+
+        marker_e4dac1e80fa9fc848f6da3170c939774.bindPopup(popup_c26c717d44d8cb48bea9cf60c07feaa1)
+        ;
+
+        
+    
+    
+            marker_e4dac1e80fa9fc848f6da3170c939774.bindTooltip(
+                `<div>
+                     PsicoNess
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17d4c8f9cf7bab3cac8a7340570b68b7 = L.marker(
+                [37.9377, -1.1649],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_ccfcdbe96f2188bdef30becf9cb0e96e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1ee705c7e55cb29df5db48e2e0028bc = $(`<div id="html_b1ee705c7e55cb29df5db48e2e0028bc" style="width: 100.0%; height: 100.0%;">Fisioterapia y Masaje Terapéutico Celine Ortiz Sule</div>`)[0];
+            popup_ccfcdbe96f2188bdef30becf9cb0e96e.setContent(html_b1ee705c7e55cb29df5db48e2e0028bc);
+        
+
+        marker_17d4c8f9cf7bab3cac8a7340570b68b7.bindPopup(popup_ccfcdbe96f2188bdef30becf9cb0e96e)
+        ;
+
+        
+    
+    
+            marker_17d4c8f9cf7bab3cac8a7340570b68b7.bindTooltip(
+                `<div>
+                     Fisioterapia y Masaje Terapéutico Celine Ortiz Sule
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f84806e772f0f2f701aa052912009f9f = L.marker(
+                [37.9372, -1.1687],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_2db80414219d7c28cad1bb8b24109d16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eed31daf0adfe6b9beb1aa87ed6238be = $(`<div id="html_eed31daf0adfe6b9beb1aa87ed6238be" style="width: 100.0%; height: 100.0%;">Fisioterapia Encarna Torres</div>`)[0];
+            popup_2db80414219d7c28cad1bb8b24109d16.setContent(html_eed31daf0adfe6b9beb1aa87ed6238be);
+        
+
+        marker_f84806e772f0f2f701aa052912009f9f.bindPopup(popup_2db80414219d7c28cad1bb8b24109d16)
+        ;
+
+        
+    
+    
+            marker_f84806e772f0f2f701aa052912009f9f.bindTooltip(
+                `<div>
+                     Fisioterapia Encarna Torres
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4dfca26b23f0829ce4799afc0694a6b = L.marker(
+                [37.9368, -1.1659],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_bb4a63043e2c760d34683b75eeb73e7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0585dc6ca0a75c4a7d92288c780d93f = $(`<div id="html_f0585dc6ca0a75c4a7d92288c780d93f" style="width: 100.0%; height: 100.0%;">Clínica de Fisioterapia Nuevo Palmar</div>`)[0];
+            popup_bb4a63043e2c760d34683b75eeb73e7b.setContent(html_f0585dc6ca0a75c4a7d92288c780d93f);
+        
+
+        marker_a4dfca26b23f0829ce4799afc0694a6b.bindPopup(popup_bb4a63043e2c760d34683b75eeb73e7b)
+        ;
+
+        
+    
+    
+            marker_a4dfca26b23f0829ce4799afc0694a6b.bindTooltip(
+                `<div>
+                     Clínica de Fisioterapia Nuevo Palmar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db6ac21a533580c1f547103d89351135 = L.marker(
+                [37.9398, -1.1671],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_b3ad73f9e590ec86e21e894b5c10816a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be02c0ba6bc829e96704ca104308e835 = $(`<div id="html_be02c0ba6bc829e96704ca104308e835" style="width: 100.0%; height: 100.0%;">Jardín Centro Social de los Mayores</div>`)[0];
+            popup_b3ad73f9e590ec86e21e894b5c10816a.setContent(html_be02c0ba6bc829e96704ca104308e835);
+        
+
+        marker_db6ac21a533580c1f547103d89351135.bindPopup(popup_b3ad73f9e590ec86e21e894b5c10816a)
+        ;
+
+        
+    
+    
+            marker_db6ac21a533580c1f547103d89351135.bindTooltip(
+                `<div>
+                     Jardín Centro Social de los Mayores
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c516f1f5dad03081555bffd46da5e34 = L.marker(
+                [37.9401, -1.1662],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_1718f1a480069505ee18de3e97098318 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fdab4a8467b440a7a8355ab88cf2b44 = $(`<div id="html_0fdab4a8467b440a7a8355ab88cf2b44" style="width: 100.0%; height: 100.0%;">Plaza de la Democracia</div>`)[0];
+            popup_1718f1a480069505ee18de3e97098318.setContent(html_0fdab4a8467b440a7a8355ab88cf2b44);
+        
+
+        marker_4c516f1f5dad03081555bffd46da5e34.bindPopup(popup_1718f1a480069505ee18de3e97098318)
+        ;
+
+        
+    
+    
+            marker_4c516f1f5dad03081555bffd46da5e34.bindTooltip(
+                `<div>
+                     Plaza de la Democracia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18f4780a8e0d4d1ed9895cf3ebf415c7 = L.marker(
+                [37.9412, -1.168],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_3fe970d1cbfac0df151a74e9a2dc84e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a37335fccef85b6a55c4cc068dfb5f2e = $(`<div id="html_a37335fccef85b6a55c4cc068dfb5f2e" style="width: 100.0%; height: 100.0%;">Parque deportivo: pista multideporte</div>`)[0];
+            popup_3fe970d1cbfac0df151a74e9a2dc84e9.setContent(html_a37335fccef85b6a55c4cc068dfb5f2e);
+        
+
+        marker_18f4780a8e0d4d1ed9895cf3ebf415c7.bindPopup(popup_3fe970d1cbfac0df151a74e9a2dc84e9)
+        ;
+
+        
+    
+    
+            marker_18f4780a8e0d4d1ed9895cf3ebf415c7.bindTooltip(
+                `<div>
+                     Parque deportivo: pista multideporte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b40ffab8661f15a14d523f5c635e3141 = L.marker(
+                [37.9375, -1.1637],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_80b1b751e2e9193b0fdc23539e4c9f08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e9b9b47409915a4bdccc19a778a48c2 = $(`<div id="html_5e9b9b47409915a4bdccc19a778a48c2" style="width: 100.0%; height: 100.0%;">BunkaiFitness</div>`)[0];
+            popup_80b1b751e2e9193b0fdc23539e4c9f08.setContent(html_5e9b9b47409915a4bdccc19a778a48c2);
+        
+
+        marker_b40ffab8661f15a14d523f5c635e3141.bindPopup(popup_80b1b751e2e9193b0fdc23539e4c9f08)
+        ;
+
+        
+    
+    
+            marker_b40ffab8661f15a14d523f5c635e3141.bindTooltip(
+                `<div>
+                     BunkaiFitness
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3c3f55f5a04e69f9b77cdbd9ef3be59 = L.marker(
+                [37.934, -1.171],
+                {}
+            ).addTo(map_5467da0281d0512ae284d61a25022133);
+        
+    
+        var popup_ba887eb4262142a260993432ebda8b8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63cf39e4b21f9f9cfa140033c3387f22 = $(`<div id="html_63cf39e4b21f9f9cfa140033c3387f22" style="width: 100.0%; height: 100.0%;">Cerro del Portazgo</div>`)[0];
+            popup_ba887eb4262142a260993432ebda8b8c.setContent(html_63cf39e4b21f9f9cfa140033c3387f22);
+        
+
+        marker_d3c3f55f5a04e69f9b77cdbd9ef3be59.bindPopup(popup_ba887eb4262142a260993432ebda8b8c)
+        ;
+
+        
+    
+    
+            marker_d3c3f55f5a04e69f9b77cdbd9ef3be59.bindTooltip(
+                `<div>
+                     Cerro del Portazgo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
